@@ -1,0 +1,89 @@
+@import './variables.css';
+
+/*
+Styles for all pages
+*/
+
+* {
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--colorBackground);
+}
+
+header {
+  background-color: var(--colorBackgroundHeader);
+  color: var(--colorFontHeader);
+}
+
+header>h1 {
+  padding: 0.5rem 1rem;
+}
+
+
+nav {
+  padding: 0.5rem 0.5rem;
+  background-color: var(--colorBackgroundNav);
+}
+
+nav>ul>li {
+  display: inline;
+  padding: 0.5rem;
+}
+
+nav>ul>li>a {
+  color: var(--colorNavText);
+  text-decoration-line: none;
+
+}
+
+nav>ul>li>a:hover {
+  color: var(--colorNavTextWhenHover);
+  text-decoration-line: none;
+  font-weight: bold;
+
+}
+
+.selected {
+  color: var(--colorSelected);
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--footerBackgroundColor);
+  color: var(--footerFontColor);
+  margin-top: 2rem;
+  padding: 0.5rem 0rem;
+}
+
+/*
+
+mobile version
+
+*/
+
+@media only screen and (max-width: 475px) {
+  nav>ul {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  nav>ul>li {
+    padding: 0.15rem;
+    border-bottom: solid 0.1rem --colorDividerBetweenMenuItems
+  }
+
+  nav>ul>li:last-child {
+    border-bottom: none;
+  }
+}

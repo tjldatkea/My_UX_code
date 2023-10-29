@@ -1,0 +1,11 @@
+:root {
+  --colorBackground: floralwhite;
+  --colorHeadersBackground: darkblue;
+  --buttonBackgroundColor: lightgray;
+  --colorHeadersText: floralwhite;
+  --borderColor: darkgray;
+  --colorTableBackgroundAndBorder: #dddddd;
+
+  --font: Tahoma, sans-serif;
+  --fontTable: arial, sans-serif;
+}

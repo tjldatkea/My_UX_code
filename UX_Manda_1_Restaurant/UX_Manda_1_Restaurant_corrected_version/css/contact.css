@@ -1,0 +1,50 @@
+@import './style.css';
+
+/*
+
+mobile version
+
+*/
+
+main {
+  margin: 0.5rem 1.5rem;
+}
+
+img {
+  width: 100%;
+  border: 1px solid var(--mapBorderColor);
+  border-radius: 1rem;
+}
+
+p {
+  padding: 0.5rem;
+}
+
+div {
+  padding: 0.25rem;
+}
+
+#input-button {
+  margin: 0.5rem 1.5rem;
+  font-size: larger;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+
+fieldset {
+  /* width: 100% virker ikke efter hensigten, kun border ændrer width ved tjek af responsivitet */
+}
+
+/*
+
+desktop version
+
+*/
+
+@media only screen and (min-width: 1000px) {
+  img {
+    width: 50%;
+    float: right;
+  }
+}

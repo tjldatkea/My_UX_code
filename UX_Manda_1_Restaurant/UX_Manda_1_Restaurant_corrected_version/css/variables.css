@@ -1,0 +1,21 @@
+:root {
+  --colorBackground: lightgrey;
+  --colorBackgroundHeader: rgb(234, 80, 71);
+  --colorFontHeader: white;
+  --colorBackgroundNav: rgb(39, 53, 74);
+  --colorNavText: lightgrey;
+  --colorNavTextWhenHover: lightblue;
+  --colorSelected: rgb(235, 206, 154);
+  --colorRecommandation: darkgray;
+  --colorPropertyList: rgb(177, 62, 54);
+  --footerBackgroundColor: rgb(39, 53, 74);
+  --footerFontColor: white;
+  --priceTextColor: floralwhite;
+  --priceBackgroundColor: rgb(234, 80, 71);
+  --priceBorderColor: rgb(39, 53, 74);
+  --articleBackgroundColor: lightgoldenrodyellow;
+  --mapBorderColor: black;
+  --colorDividerBetweenMenuItems: white;
+
+  --font: Tahoma, sans-serif;
+}

@@ -1,0 +1,13 @@
+:root {
+  --colorBackground: floralwhite;
+  --colorHeadersBackground: darkblue;
+  --colorHeadersText: floralwhite;
+  --colorKeaLogoBackgroundColor: rgb(234, 80, 71);
+  --colorHeadersBackground: darkblue;
+  --colorHeadersText: floralwhite;
+  --colorTableBackgroundAndBorder: #dddddd;
+
+
+  --font: Tahoma, sans-serif;
+  --fontTable: arial, sans-serif;
+}

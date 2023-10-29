@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UX API Consumption City NodeJS Alternative Solution</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="./scripts/script.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="headers-image-container">
+      <img class="headers-image" src="./images/kea.png" alt="KEA logo">
+    </div>
+
+    <h1>API Consumption City</h1>
+  </header>
+  <main>
+    <section>
+      <form id="CityForm" action="/" method="post">
+        <div class="form-group">
+          <label class="city-label" for="cityInput">City </label>
+          <input class="user-text-input" type="text" name="city" id="cityInput" value="" required>
+        </div>
+        <input type="submit" value="City information" class="button">
+      </form>
+    </section>
+    <section>
+      <!-- TODO Data from API Appended here instead of current solution-->
+    </section>
+  </main>
+  <footer class="footer">
+    <p id="copyrightParagragraph">
+    </p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Tristan WL</title>
+  <script src="./scripts/script.js" defer></script>
+</head>
+
+<body>
+  <header id="top">
+    <h1>Tristan Wede Lind</h1>
+    <h3>Web Developer and Author</h2>
+      <select name="languages">
+        <option value="en">EN</option>
+        <option value="dk">DK</option>
+      </select>
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#tour">On tour</a>
+      </li>
+      <li>
+        <a href="#books">Books</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+
+    <article>
+      <section id="home">
+        <span class="button-look">
+          NEW RELEASE
+        </span>
+        <h2>
+          Advanced PHP: From Zero to Hero
+        </h2>
+        <p>
+          &copy 2023 KEA Publishing
+        </p>
+        <img src="./images/book_php_preview.png" alt="Advanced PHP - From Hero to Zero Book">
+      </section>
+      <section id="bio">
+        <p>
+          A Copenhagen native, Tristan Wede Lind has established himself as a leading authority in web development,
+          captivating audiences worldwide with his profound knowledge of various technologies and methodologies. With a
+          career
+          spanning over two decades, Lind has honed his skills working for industry giants, where he contributed to
+          cutting-edge projects that pushed the boundaries of web development.
+        </p>
+        <p>
+          Lind's latest achievements showcase his commitment to advancing the field. Through meticulous research and
+          hands-on
+          experience, he has developed novel approaches to web design, user experience optimization, and responsive
+          development, ensuring that websites and applications deliver immersive and intuitive experiences across
+          devices.
+        </p>
+        <p>
+          As an accomplished author, Lind has authored numerous critically acclaimed books that serve as essential
+          guides
+          for
+          aspiring web developers and industry professionals alike. His publications, revered for their clarity, depth,
+          and
+          practicality, have garnered widespread acclaim and have been translated into multiple languages, solidifying
+          his
+          reputation as an influential figure in the global web development community.
+        </p>
+        <blockquote>
+          <p id="quote">
+            Tristan Wede Lind's books on web development are an invaluable resource for both novices and seasoned
+            professionals.
+            His comprehensive yet accessible approach demystifies complex concepts, providing practical guidance that
+            translates
+            directly into real-world success. Lind's expertise shines through in every page, making his works an
+            indispensable
+            addition to any developer's library.
+          </p>
+          <p id="reviewer">
+            The Tech Tribune
+          </p>
+        </blockquote>
+        <p>
+          In addition to his professional accomplishments, Lind is known for his dedication to sharing his expertise
+          through
+          conferences, workshops, and online platforms. As a sought-after speaker, he has enlightened audiences with his
+          insightful talks, empowering developers to embrace emerging technologies and adapt to the ever-evolving
+          digital
+          landscape.
+        </p>
+      </section>
+
+    </article>
+    <article id="tour">
+      <h2 class="article-headings">On tour</h2>
+      <img src="./images/tristan_640.jpg" alt="Tristan talks">
+      <section id="event-cards" class="event-cards">
+        <!-- Content from JS -->
+      </section>
+    </article>
+    <section class="go-to-top-arrows">
+      <a href="#top">
+        <img src="./images/up-arrow.png">
+      </a>
+    </section>
+    <article id="books">
+      <h2 class="article-headings">Books</h2>
+      <section id="book-cards" class="book-cards">
+        <!-- Content from JS -->
+      </section>
+    </article>
+    <section class="go-to-top-arrows">
+      <a href="#top">
+        <img src="./images/up-arrow.png">
+      </a>
+    </section>
+
+    <article id="contact">
+      <h2 class="article-headings">Contact</h2>
+      <section id="contact-cards" class="contact-cards">
+        <article class="contact-article">
+          <div class="contact-images-container">
+            <img class="contact-images" src="./images/victoria.png" alt="Victoria">
+          </div>
+          <h4>Publishing</h4>
+          <p>Victoria Marsh (Editor)</p>
+          <a href="mailto:victoriamarsh@keapublishing.com">victoriamarsh@keapublishing.com</a>
+          <p>Phone</p>
+          <a class="inline" href="tel:004407975020028">(+44) 079 7502 0028</a>
+        </article>
+        <article class="contact-article">
+          <div class="contact-images-container">
+            <img class="contact-images" src="./images/elly.png" alt="Elly">
+          </div>
+          <h4>Booking</h4>
+          <p>Elly Houthuijzen (Agent)</p>
+          <a href="mailto:elly@houthuijzen.com">elly@houthuijzen.com</a>
+          <p>Phone</p>
+          <a class="inline" href="tel:00310642821232">(+31) 06-42821232</a>
+        </article>
+      </section>
+      <section class="contact-form">
+        <form id="contactForm" action="" method="POST">
+          <fieldset class="contact-fieldset">
+            <legend>Request booking</legend>
+            <div class="input-container">
+              <label for="nameInput">Name</label>
+              <input type="text" name="name" id="nameInput" pattern="" required>
+            </div>
+            <div class="input-container">
+              <label for="emailInput">E-mail address</label>
+              <input type="email" name="email" id="emailInput" required>
+            </div>
+            <div class="input-container">
+              <label for="enquiryTextarea">Enquiry</label>
+            </div>
+            <div class="input-container">
+              <textarea class="enquiry-textarea" name="enquiry" id="enquiryTextarea"></textarea>
+            </div>
+            <input id="input-button" type="button" value="Submit Request">
+          </fieldset>
+        </form>
+      </section>
+    </article>
+    <section class="bottom-image">
+      <img src="./images/conference.jpg" alt="Tristan at conference">
+    </section>
+    <section class="go-to-top-arrows">
+      <a href="#top">
+        <img src="./images/up-arrow.png">
+      </a>
+    </section>
+  </main>
+  <footer class="footer">
+
+    <div class="footer-content-left">
+    </div>
+
+    <div class="footer-content-center"></div>
+
+    <div class="footer-content-right">
+      CREDITS
+
+      Person pictures by Matheus Bertelli
+      https://www.pexels.com/@bertellifotografia/
+
+      Book cover pictures by 123RF
+      https://www.123rf.com/
+
+      SoMe icons generated with Powr.io
+      https://www.powr.io/plugins/social-media-icons/standalone
+
+      Microphone icon by Freepik
+      https://www.freepik.com/
+
+      Up arrow icon by Yogi Aprelliyanto
+      https://www.flaticon.com/authors/yogi-aprelliyanto
+
+      Texts generated by ChatGPT
+      https://chat.openai.com/?model=text-davinci-002-render-sha
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

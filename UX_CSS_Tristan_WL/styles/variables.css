@@ -1,0 +1,23 @@
+:root {
+  --colorBackground: lightgrey;
+  --colorBackgroundHeader: #262858;
+  --colorFontHeader: #d6c37f;
+  --colorBackgroundNav: #506283;
+  --colorFontNav: floralwhite;
+  --colorBorderNav: #d6c37f;
+  --colorButtonLookBackground: #582627;
+  --colorButtonLookFont: floralwhite;
+  --colorBackgroundFirstArticleHome: #d6c37f;
+  --colorBackgroundFirstArticleBio: floralwhite;
+  --colorBlockquoteBackground: #506283;
+  --colorBlockquoteFont: floralwhite;
+  --colorArticleHeadersBackground: #506283;
+  --colorArticleHeadersFont: #d6c37f;
+  --colorTourEventFont: #262858;
+  --colorTourRoleFont: #582627;
+  --colorBorderEvents: #d6c37f;
+  --colorBackgroundSecondArticleTour: floralwhite;
+
+  
+  --font: Tahoma, sans-serif;
+}

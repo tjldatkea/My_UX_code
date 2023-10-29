@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/script.js" defer></script>
+  <title>Music CDs</title>
+</head>
+
+<body>
+  <header>
+    <h1>Music CDs</h1>
+  </header>
+  <main>
+    <section>
+      <form id="addCDForm" action="" method="get">
+        <div>
+          <label for="authorInput">Author </label>
+        </div>
+        <div>
+          <input type="text" id="authorInput" value="" required>
+        </div>
+        <div>
+          <label for="titleInput">Title </label>
+        </div>
+        <div>
+          <input type="text" id="titleInput" value="" required>
+        </div>
+        <div>
+          <label for="yearInput">Year </label>
+        </div>
+        <div>
+          <input type="text" id="yearInput" value="" required>
+        </div>
+        <input type="submit" value="Submit CD" class="button">
+      </form>
+    </section>
+    <section>
+      <table id="table">
+        <thead>
+          <th class="ids">id</th>
+          <th>Author</th>
+          <th>Title</th>
+          <th>Year</th>
+          <th></th>
+        </thead>
+      </table>
+    </section>
+  </main>
+  <footer class="footer">
+    <p id="copyrightParagragraph">
+    </p>
+  </footer>
+</body>
+
+</html>

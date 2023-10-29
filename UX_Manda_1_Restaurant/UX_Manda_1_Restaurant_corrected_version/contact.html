@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant KEA - Kontakt</title>
+  <link rel="stylesheet" href="./css/contact.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"> -->
+</head>
+
+<body>
+  <header>
+    <h1>Restaurant KEA</h1>
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./menu.html">Menu</a>
+      </li>
+      <li>
+        <a href="./contact.html" class="selected">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <img src="img/map.jpg" alt="map">
+    <section>
+      <address>
+        <p>
+          <em>
+            Guldbergsgade 29N 2200 Copenhagen
+          </em>
+        </p>
+        <p>
+          <em>
+            Phone no.:
+            <a href="tel:20 82 53 70" title="Phone Restaurant Kea">20 82 53 70</a>
+          </em>
+          <!-- Ved at skrive tel: kan man få telefonen til at ringe op til nummeret, når man trykker på nummeret.
+          Man kan skjule nummeret og så vise det vha JS efter siden er loadet, det mindsker risikoen for at nummeret bliver høstet -->
+        </p>
+        <p>
+          <em>
+            E-mail:
+            <a href="mailto:info@restaurantkea.dk" title="Mail Restaurant Kea">info@restaurantkea.dk</a>
+          </em>
+        </p>
+      </address>
+
+    </section>
+    <section>
+      <form id="contactForm" action="process.php" method="POST">
+        <fieldset>
+          <legend>Contact form</legend>
+          <div>
+            <label for="fullNameInput">Full name</label>
+            <input type="text" name="fullName" id="fullNameInput" pattern="" required>
+          </div>
+          <div>
+            <label for="phoneNumberInput">Phone no.</label>
+            <input type="tel" name="phoneNumber" id="phoneNumberInput" pattern="[0-9]{8}" required>
+          </div>
+          <div>
+            <label for="emailInput">E-mail</label>
+            <input type="email" name="email" id="emailInput" required>
+          </div>
+          <div>
+            <label for="numberOfPersonsInput">Persons</label>
+            <input type="text" name="numberOfPersons" id="numberOfPersonsInput" value="2" size="4" required>
+          </div>
+          <div>
+            <label for="dataAndTimeInput">Date and time</label>
+            <input type="datetime-local" name="dataAndTime" id="dataAndTimeInput" required>
+          </div>
+          <div>
+            <label for="furtherInformationTextarea">Further information</label>
+          </div>
+          <div>
+            <textarea name="furtherInformation" id="furtherInformationTextarea" cols="20" rows="2"></textarea>
+            <!-- Størrelsen af textarea skal styres med css aht seperation af concerns -->
+          </div>
+          <input id="input-button" type="button" value="Send">
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>
+      &copy; 2023 KEA Development
+    </p>
+  </footer>
+</body>
+
+</html>
