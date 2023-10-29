@@ -34,11 +34,11 @@ nav>ul>li {
   padding: 0.5rem;
 }
 
-nav>ul>li>a {
-  color: var(--colorNavText);
-  text-decoration-line: none;
+  nav>ul>li>a {
+    color: var(--colorNavText);
+    text-decoration-line: none;
 
-}
+  }
 
 nav>ul>li>a:hover {
   color: var(--colorNavTextWhenHover);
